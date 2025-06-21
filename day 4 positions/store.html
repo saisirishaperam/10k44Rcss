@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .car {
+      position: relative;
+      width: 400px;
+      margin: 20px;
+      display: inline-block;
+    }
+    .car:hover {
+      transform: scale(1.05);
+    }
+    .car img {
+        height: 400px ;
+        width : 400px;
+        display: block;
+        border-radius: 10px;
+    }
+    .welcome img{
+        height: 900px;
+        width : auto;
+    }
+    .wel {
+        position: absolute;
+        top :100px;
+        width : 700px;
+        color: antiquewhite;
+        left: 200px;
+        font-size: 200px;
+    }
+    .frerrai, .rools, .lam, .bmw, .porsche, .audi {
+        position: absolute;
+        bottom:20px ;
+        left:20px;
+        color:aliceblue;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .header {
+      position: fixed;
+      width: auto;
+      top : auto;
+      text-align: center ;
+      font-size: 28px;
+      margin-top: 40px;
+      color :rgba(0, 0, 0, 0.5);
+      background-color: rgb(255, 255, 255);
+      z-index: 999;
+    }
+    .gar{
+        height: 900px;
+        width : auto;
+    }
+</style>
+<body>
+    <h3 class="header">LUXRURY CARS</h3>
+    <div class="welcome">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1283&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <div class="wel" >Welcome to the store</div>
+    </div>
+
+    <div class="car">
+        <div class="audi">AUDI</div>
+        <img src="https://images.unsplash.com/photo-1540066019607-e5f69323a8dc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXVkaXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        
+    </div>
+
+    <div class="car">
+        <div class="porsche" >PORSCHE</div>
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9yc2NoZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        
+    </div>
+
+    <div class="car">
+        <div class="frerrai">FRERRARI</div>
+        <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVycmFyaXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+        
+    </div>
+
+    <div class="car">
+         <div class="rools">ROLLS ROYCE</div>
+        <img src="https://plus.unsplash.com/premium_photo-1724440325007-e7b8b857dd08?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHJvbGxzJTIwcm95cyUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D" alt="">
+       
+    </div>
+
+    <div class="car">
+        <div class="lam">LAMBORGHINI</div>
+        <img src="https://images.unsplash.com/photo-1532581140115-3e355d1ed1de?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhbWJvcmdoaW5pfGVufDB8fDB8fHww" alt="">
+        
+    </div>
+
+    <div class="car">
+         <div class="bmw">BMW</div>
+        <img src="https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ym13fGVufDB8fDB8fHww" alt="">
+        
+    </div>
+<hr>
+    <h2>About</h2>
+    <hr>
+    <p>Ferrari
+Ferrari is an Italian luxury sports car manufacturer known for speed, style, and Formula 1 dominance.</p>
+<p>Porsche
+German engineering at its best, Porsche blends performance and luxury, especially with its 911 series.</p>
+<p>Audi
+Audi is known for its Quattro all-wheel-drive system, refined interiors, and advanced technology.</p>
+<p>BMW
+BMW stands for performance and driving pleasure, featuring sporty sedans, SUVs, and electric models.</p>
+<p>Lamborghini
+Lamborghini creates exotic, aggressive supercars with powerful V12 engines and a bold design.</p>
+<p>Rolls Royce
+Symbol of luxury, Rolls Royce is famous for hand-crafted elegance, comfort, and silent V12 engines.</p>
+<hr>
+<h2>SAI SIRISHA</h2>
+<h3>CEO & FOUNDER</h3>
+
+<h3>contact</h3><hr>
+Lets get in touch and talk about the car
+<form action="">
+    <h4>Name:</h4>
+    <input type="text" id="name" maxlength="200" required><br>
+    <h4>Email:</h4>        
+            <input type="email"><br>
+    <h4>Mobile Number:</h4>
+            <input type="text" maxlength="10"><br><hr>
+     <button>Send message</button><br>
+     <hr>
+     <img class="gar" src="https://png.pngtree.com/background/20230412/original/pngtree-car-showroom-lighting-effect-advertising-background-picture-image_2401286.jpg" alt="">
+</form>
+</body>
+</html>
+
+
+
+
