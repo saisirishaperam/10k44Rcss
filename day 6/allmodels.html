@@ -1,0 +1,79 @@
+
+
+  <!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Icons</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-container {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      padding: 30px;
+      background-color: #f0f0f0;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact-item i {
+      font-size: 24px;
+    }
+
+    .contact-item:hover {
+      color: #0077b5; /* Highlight color on hover */
+    }
+
+    .github:hover {
+      color: #000;
+    }
+
+    .email:hover {
+      color: #c23a2b;
+    }
+
+    .phone:hover {
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/your-profile" class="contact-item" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/your-username" class="contact-item github" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:yourmail@example.com" class="contact-item email">
+      <i class="fas fa-envelope"></i> yourmail@example.com
+    </a>
+
+    <!-- Mobile -->
+    <a href="tel:+911234567890" class="contact-item phone">
+      <i class="fas fa-phone"></i> +91 12345 67890
+    </a>
+  </div>
+
+</body>
+</html>
